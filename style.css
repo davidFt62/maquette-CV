@@ -1,0 +1,133 @@
+*{
+    margin:0px;
+    padding:0;
+}
+
+body{
+    background-color: #000000;
+    height:5000px
+    ;
+}
+
+.header{
+    background: #D6E1C3;
+    width: 100%;
+    height: 323px;
+    position: relative;
+    
+}
+
+/* image photo identité */
+.header__photo{
+    margin: 0px;
+    padding: 0px;
+    width: 364px;
+    height: 364px;
+    position: absolute;
+    top: 140px;
+    margin-left: 50px;
+}
+
+/* image banniére nav */
+.header__banniere{
+    margin: 0px;
+    padding: 0px;
+    width: 135px;
+    height: 128px;
+    position: absolute;
+    top: 0;
+    margin-left: 443px;
+}
+
+ /* titre Dévellopeur web */
+.header__title{
+position: absolute;
+margin-top: 150px;
+margin-left: 32%;
+font-family: 'Kameron', serif;
+font-weight: 400;
+font-size: 96px;
+color: #72574D;
+}
+
+/* David Foucart */
+.header__name{
+position: absolute;
+margin-top: 20px;
+margin-left: 25px;
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 300;
+font-size: 64px;
+color: #362B27;
+}
+
+
+input{
+/* bouton navigation*/
+width: 200px;
+height:88px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+color: #000000;
+background: none;
+border: none;
+text-align: center;
+}
+
+/* couleur bouton navigation acceuil différente des autres */
+.acceuil__nav{
+    color: #F5F5F5;
+}
+nav{
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    position: absolute;
+margin-left: 21.4%;
+}
+.main{
+    height: 4000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.identity{
+/* cadre identité image spirale à droite + texte à gauche*/
+margin: 20px;
+position: absolute;
+top: 60%;
+width: 100%;
+height: 621px;
+background: #362B27;
+border: 30px solid #DAD6CD;
+border-radius: 24px;
+display: flex ;
+}
+
+.identity__img{
+height:100%;
+}
+
+.identity__text{
+width: 44.7%;
+font-family: 'Lexend';
+font-style: normal;
+font-size: 40px;
+line-height: 50px;
+color: #FFFFFF;
+line-height: 60px;
+margin-left: 30px;
+}
+
+.professionnal_experiences{
+    color: #FFFFFF;
+}
+
+
+.contact{
+
+}
