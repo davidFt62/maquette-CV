@@ -1,24 +1,25 @@
-*{
-    margin:0px;
-    padding:0;
+* {
+    margin: 0px;
+    padding: 0;
+    border: 1px solid  red ;
+
 }
 
-body{
+body {
     background-color: #000000;
-    height:5000px
-    ;
+    height: 5000px;
 }
 
-.header{
+.header {
     background: #D6E1C3;
     width: 100%;
     height: 323px;
     position: relative;
-    
+
 }
 
 /* image photo identité */
-.header__photo{
+.header__photo {
     margin: 0px;
     padding: 0px;
     width: 364px;
@@ -29,7 +30,7 @@ body{
 }
 
 /* image banniére nav */
-.header__banniere{
+.header__banniere {
     margin: 0px;
     padding: 0px;
     width: 135px;
@@ -39,95 +40,215 @@ body{
     margin-left: 443px;
 }
 
- /* titre Dévellopeur web */
-.header__title{
-position: absolute;
-margin-top: 150px;
-margin-left: 32%;
-font-family: 'Kameron', serif;
-font-weight: 400;
-font-size: 96px;
-color: #72574D;
+/* titre Dévellopeur web */
+.header__title {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 32%;
+    font-family: 'Kameron', serif;
+    font-weight: 400;
+    font-size: 96px;
+    color: #72574D;
 }
 
 /* David Foucart */
-.header__name{
-position: absolute;
-margin-top: 20px;
-margin-left: 25px;
-font-family: 'Lexend';
-font-style: normal;
-font-weight: 300;
-font-size: 64px;
-color: #362B27;
+.header__name {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    color: #362B27;
 }
 
 
-input{
-/* bouton navigation*/
-width: 200px;
-height:88px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-color: #000000;
-background: none;
-border: none;
-text-align: center;
+input {
+    /* bouton navigation*/
+    width: 200px;
+    height: 88px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #000000;
+    background: none;
+    border: none;
+    text-align: center;
 }
 
 /* couleur bouton navigation acceuil différente des autres */
-.acceuil__nav{
+.acceuil__nav {
     color: #F5F5F5;
 }
-nav{
-    width:70%;
+
+nav {
+    /* dispisition de la barre de navigation */
+    width: 70%;
     display: flex;
     justify-content: space-between;
     text-align: justify;
     position: absolute;
-margin-left: 21.4%;
+    margin-left: 21.4%;
 }
-.main{
-    height: 4000px;
+
+
+.identity {
+    /* cadre identité image spirale à droite + texte à gauche*/
+    margin: 300px auto 50px auto;
+
     width: 100%;
+    height: 621px;
+    background: #362B27;
+    border: 30px solid #DAD6CD;
+    border-radius: 24px;
+    display: flex;
+}
+
+
+.identity__img {
+    height: 100%;
+}
+
+
+.identity__text {
+    width: 44.7%;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+    line-height: 55px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+
+.main {
+     width: auto;
+     height: auto;
     display: flex;
     flex-direction: column;
-}
-.identity{
-/* cadre identité image spirale à droite + texte à gauche*/
-margin: 20px;
-position: absolute;
-top: 60%;
-width: 100%;
-height: 621px;
-background: #362B27;
-border: 30px solid #DAD6CD;
-border-radius: 24px;
-display: flex ;
+    align-items: center;
+    align-content:center;
 }
 
-.identity__img{
-height:100%;
+.diplomes{
+    color: #FFFFFF;
+    height: 600px;
+    margin: 200px auto 200px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
-.identity__text{
-width: 44.7%;
-font-family: 'Lexend';
-font-style: normal;
-font-size: 40px;
-line-height: 50px;
-color: #FFFFFF;
-line-height: 60px;
-margin-left: 30px;
-}
 
-.professionnal_experiences{
+.diplomes__title{
+    margin: 0 auto ;
+    width: auto;
+    height: 73px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
     color: #FFFFFF;
 }
 
 
-.contact{
-
+.diplomes__text{
+    width: 1500px;
+    height: 300px;
+    margin: auto;
+    list-style-type: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: #F5F5F5;
+    line-height: 40px;
 }
+
+
+.skills{
+    color: #FFFFFF;
+    height: 600px;
+    margin: 0 auto 200px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.skills__title{
+    margin: 0 auto ;
+    width: auto;
+    height: 73px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+
+.skills__text{
+    width: 1500px;
+    height: 300px;
+    margin: auto;
+    list-style-type: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: #F5F5F5;
+    line-height: 40px;
+}
+
+
+.professionnal_experiences{
+    color: #FFFFFF;
+    width: auto;
+    height: 1000px;
+    margin: 0 0 0 100px ;
+    padding: 0 auto 600px 100px;
+}
+
+
+.professionnal-experiences__title{
+    margin:  auto;
+    width: auto;
+    height: 73px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+.professionnal-experiences__text{
+    width: 100vw;
+    margin: 20% 0 0 auto;
+}
+
+
+.professionnal_experiences__date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: #F5F5F5;
+    line-height: 40px;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+.contact {}
